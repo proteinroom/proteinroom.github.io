@@ -1,9 +1,67 @@
+<!DOCTYPE html>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Times New Roman", sans-serif;
+}
 
+.sidenav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #FFFFFF;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #000000;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #FF69B4;
+}
+
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 15px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
 <body>
-  <h1>work in progress </h1>
-  <p>Welcome to my website!</p>
+
+<div class="sidenav">
+  <a href="#" class="active">Home</a>
+  <a href="#clients">My Research</a>
+  <a href="#clients">Recommended Literature</a>
+  <a href="#clients">Opportunities</a>
+ 
+</div>
+
+<div class="main">
+
+   <center>
+  <h1>Isabella  <i>et al. </i> </h1>
+  <p>Hi there and welcome to my website!</p>
+  <p>this page is in progress, meanwhile please enjoy this gif </p>
   <img src="https://media.tenor.com/VqD514skUbgAAAAM/rna-dna.gif" />
 </body>
+
+</center>
+
 
 </html>
